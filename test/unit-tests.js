@@ -6,6 +6,7 @@ const emails = [
   { value: undefined, expected: false },
   { value: 'email', expected: false },
   { value: 'invalid@email', expected: false },
+  { value: 'invalid@email.com@email', expected: false },
   { value: 'valid@email.com', expected: true },
 ];
 
